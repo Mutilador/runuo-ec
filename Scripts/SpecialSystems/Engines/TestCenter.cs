@@ -184,7 +184,7 @@ namespace Server.Misc
 				{
 					case 1: // RunUO
 					{
-						sender.LaunchBrowser("https://github.com/runuo/");
+						sender.LaunchBrowser("https://github.com/Mutilador/runuo-ec");
 						break;
 					}
 					case 2: // List of skills

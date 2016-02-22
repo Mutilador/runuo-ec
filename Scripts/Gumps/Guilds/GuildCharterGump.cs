@@ -11,7 +11,7 @@ namespace Server.Gumps
 		private Mobile m_Mobile;
 		private Guild m_Guild;
 
-		private const string DefaultWebsite = "https://github.com/runuo/";
+		private const string DefaultWebsite = "https://github.com/Mutilador/runuo-ec";
 
 		public GuildCharterGump( Mobile from, Guild guild ) : base( 20, 30 )
 		{
