@@ -495,8 +495,10 @@ namespace Server
 			// Added to help future code support on forums, as a 'check' people can ask for to it see if they recompiled core or not
 			Console.WriteLine("RunUO-EC - [https://github.com/Mutilador/runuo-ec] Version {0}.{1}.{2}.{3}", ver.Major, ver.Minor, ver.Build, ver.Revision);
 			Console.WriteLine("Core: Running on .NET Framework Version {0}.{1}.{2}", Environment.Version.Major, Environment.Version.Minor, Environment.Version.Build);
+            Console.WriteLine("Core: The Project RunUO-EC is a fork version of RunUO 2.5");
 
-			string s = Arguments;
+
+            string s = Arguments;
 
 			if( s.Length > 0 )
 				Console.WriteLine( "Core: Running with arguments: {0}", s );

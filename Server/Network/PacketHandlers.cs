@@ -198,7 +198,7 @@ namespace Server.Network
 		{
 			m_Handlers[packetID] = new PacketHandler( packetID, length, ingame, onReceive );
 
-			if ( m_6017Handlers[packetID] == null )
+            if ( m_6017Handlers[packetID] == null )
 				m_6017Handlers[packetID] = new PacketHandler( packetID, length, ingame, onReceive );
 		}
 

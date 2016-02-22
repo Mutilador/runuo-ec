@@ -35,7 +35,7 @@ namespace Server.Network
 			m_Data = data;
 			m_Size = size;
 			m_Index = fixedSize ? 1 : 3;
-		}
+        }
 
 		public byte[] Buffer
 		{
